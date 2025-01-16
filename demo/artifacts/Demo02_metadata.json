@@ -10,9 +10,9 @@
 				"name": "a",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -23,22 +23,9 @@
 				"name": "b",
 				"outputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStr",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"hello.sol": "HelloWorld"
+			"demo/demo02.sol": "Demo02"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"hello.sol": {
-			"keccak256": "0xac90b1adffb2fa48d82f5ecae5b425f82a0131af8235557410ab258a2721771c",
+		"demo/demo02.sol": {
+			"keccak256": "0x70bd98e2082ae976e6e3d3bd9a5f428b4b5b464296af93a0581136a40e807dff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e8048f76aaa54519c6e40905fcd5b208e2d1c5e0d479b2c00357fc0fe7092555",
-				"dweb:/ipfs/QmTAWGRANkjPenvuoyiiAxp9XGToBJuxp2KHMzeo3dHU1A"
+				"bzz-raw://b5dbffd8145c0aebb55766c1a8b35543ae21a00dbbbbb66182f18bc44063030c",
+				"dweb:/ipfs/QmeNcZpjouSpeQMPWLajibgoS7zRmrpjKRoFyHv4sWCVGi"
 			]
 		}
 	},
