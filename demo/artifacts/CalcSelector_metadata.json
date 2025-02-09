@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "selector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "selector2",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo/demo11.sol": "CalcSelector"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo/demo11.sol": {
+			"keccak256": "0x57d75f97defd36b761959c9ad8e03fc66eb310f42c9450212c0b303160272cb0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9fb537b6df97cb4c5a1a1142af2469f7badf0b7a2ecbe7fc61e2d7d364cf2299",
+				"dweb:/ipfs/QmZ3BsEwwZQ3MHks7X16Z9a1dvLBXUhf6DbE3X2j7DVqUf"
+			]
+		}
+	},
+	"version": 1
+}

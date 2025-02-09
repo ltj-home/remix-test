@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_value2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"demo/demo11.sol": "Callee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"demo/demo11.sol": {
+			"keccak256": "0x1c7acf9122c0037316d19a5d5847d018bd20a0969a58f87927e540fa45a2bb4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://194b34128d9a9b40ca7e84c7928feaaeb5326701b1f4939426da6aba7ba1acac",
+				"dweb:/ipfs/QmbLNQcywUeJPwJ8TvFgnuvMqUwftWDNQq5RwR86FNdQBa"
+			]
+		}
+	},
+	"version": 1
+}
